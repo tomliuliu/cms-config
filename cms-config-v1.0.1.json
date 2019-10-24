@@ -1,0 +1,942 @@
+[
+    {
+        "id": "string|世界ID",
+        "name": "string|世界名称",
+        "md5": "string|压缩包MD5",
+        "res_url": "string|压缩包地址",
+        "res_dir": "string|压缩包目录",
+        "res_size": "number|资源解压后大小",
+        "backgroundImage": {
+            "name": "string|资源名称",
+            "path": "string|资源本地地址",
+            "size": "number|资源大小",
+            "status": "string|资源状态",
+            "uid": "string|资源唯一ID",
+            "url": "string|资源在线地址"
+        },
+        "backgroundStories": [
+            {
+                "audio": {
+                    "name": "string|资源名称",
+                    "path": "string|资源本地地址",
+                    "size": "number|资源大小",
+                    "status": "string|资源状态",
+                    "uid": "string|资源唯一ID",
+                    "url": "string|资源在线地址"
+                },
+                "eye": {
+                    "name": "string|资源名称",
+                    "path": "string|资源本地地址",
+                    "size": "number|资源大小",
+                    "status": "string|资源状态",
+                    "uid": "string|资源唯一ID",
+                    "url": "string|资源在线地址"
+                },
+                "image": {
+                    "name": "string|资源名称",
+                    "path": "string|资源本地地址",
+                    "size": "number|资源大小",
+                    "status": "string|资源状态",
+                    "uid": "string|资源唯一ID",
+                    "url": "string|资源在线地址"
+                }
+            }
+        ],
+        "unlockRestriction": "number|解锁限制",
+        "unlockStories": [
+            {
+                "audio": {
+                    "name": "string|资源名称",
+                    "path": "string|资源本地地址",
+                    "size": "number|资源大小",
+                    "status": "string|资源状态",
+                    "uid": "string|资源唯一ID",
+                    "url": "string|资源在线地址"
+                },
+                "eye": {
+                    "name": "string|资源名称",
+                    "path": "string|资源本地地址",
+                    "size": "number|资源大小",
+                    "status": "string|资源状态",
+                    "uid": "string|资源唯一ID",
+                    "url": "string|资源在线地址"
+                },
+                "image": {
+                    "name": "string|资源名称",
+                    "path": "string|资源本地地址",
+                    "size": "number|资源大小",
+                    "status": "string|资源状态",
+                    "uid": "string|资源唯一ID",
+                    "url": "string|资源在线地址"
+                }
+            }
+        ],
+        "levelUpAudios": [
+            {
+                "audio": {
+                    "name": "string|资源名称",
+                    "path": "string|资源本地地址",
+                    "size": "number|资源大小",
+                    "status": "string|资源状态",
+                    "uid": "string|资源唯一ID",
+                    "url": "string|资源在线地址"
+                },
+                "eye": {
+                    "name": "string|资源名称",
+                    "path": "string|资源本地地址",
+                    "size": "number|资源大小",
+                    "status": "string|资源状态",
+                    "uid": "string|资源唯一ID",
+                    "url": "string|资源在线地址"
+                },
+                "image": null
+            }
+        ],
+        "transitions": [
+            {
+                "audio": {
+                    "name": "string|资源名称",
+                    "path": "string|资源本地地址",
+                    "size": "number|资源大小",
+                    "status": "string|资源状态",
+                    "uid": "string|资源唯一ID",
+                    "url": "string|资源在线地址"
+                },
+                "eye": {
+                    "name": "string|资源名称",
+                    "path": "string|资源本地地址",
+                    "size": "number|资源大小",
+                    "status": "string|资源状态",
+                    "uid": "string|资源唯一ID",
+                    "url": "string|资源在线地址"
+                },
+                "image": {
+                    "name": "string|资源名称",
+                    "path": "string|资源本地地址",
+                    "size": "number|资源大小",
+                    "status": "string|资源状态",
+                    "uid": "string|资源唯一ID",
+                    "url": "string|资源在线地址"
+                }
+            }
+        ],
+        "cards": [
+            {
+                "id": "string|主题ID",
+                "image": {
+                    "name": "string|资源名称",
+                    "path": "string|资源本地地址",
+                    "size": "number|资源大小",
+                    "status": "string|资源状态",
+                    "uid": "string|资源唯一ID",
+                    "url": "string|资源在线地址"
+                },
+                "introAudio": {
+                    "name": "string|资源名称",
+                    "path": "string|资源本地地址",
+                    "size": "number|资源大小",
+                    "status": "string|资源状态",
+                    "uid": "string|资源唯一ID",
+                    "url": "string|资源在线地址"
+                },
+                "name": "string|主题名称"
+            }
+        ],
+        "topics": [
+            {
+                "id": "string|主题ID",
+                "wid": "string|世界ID",
+                "name": "string|主题名称",
+                "res_url": "string|压缩包地址",
+                "res_dir": "string|压缩包目录",
+                "res_size": "number|资源解压后大小",
+                "md5": "string|压缩包MD5",
+                "badgeAfter": [
+                    {
+                        "audio": {
+                            "name": "string|资源名称",
+                            "path": "string|资源本地地址",
+                            "size": "number|资源大小",
+                            "status": "string|资源状态",
+                            "uid": "string|资源唯一ID",
+                            "url": "string|资源在线地址"
+                        },
+                        "eye": {
+                            "name": "string|资源名称",
+                            "path": "string|资源本地地址",
+                            "size": "number|资源大小",
+                            "status": "string|资源状态",
+                            "uid": "string|资源唯一ID",
+                            "url": "string|资源在线地址"
+                        },
+                        "image": "null|废弃字段-前端去除"
+                    }
+                ],
+                "badgeBefore": [
+                    {
+                        "audio": {
+                            "name": "string|资源名称",
+                            "path": "string|资源本地地址",
+                            "size": "number|资源大小",
+                            "status": "string|资源状态",
+                            "uid": "string|资源唯一ID",
+                            "url": "string|资源在线地址"
+                        },
+                        "eye": {
+                            "name": "string|资源名称",
+                            "path": "string|资源本地地址",
+                            "size": "number|资源大小",
+                            "status": "string|资源状态",
+                            "uid": "string|资源唯一ID",
+                            "url": "string|资源在线地址"
+                        },
+                        "image": "null|废弃字段-前端去除"
+                    }
+                ],
+                "badgeImage": {
+                    "name": "string|资源名称",
+                    "path": "string|资源本地地址",
+                    "size": "number|资源大小",
+                    "status": "string|资源状态",
+                    "uid": "string|资源唯一ID",
+                    "url": "string|资源在线地址"
+                },
+                "celebrations": [
+                    {
+                        "audio": {
+                            "name": "string|资源名称",
+                            "path": "string|资源本地地址",
+                            "size": "number|资源大小",
+                            "status": "string|资源状态",
+                            "uid": "string|资源唯一ID",
+                            "url": "string|资源在线地址"
+                        },
+                        "eye": {
+                            "name": "string|资源名称",
+                            "path": "string|资源本地地址",
+                            "size": "number|资源大小",
+                            "status": "string|资源状态",
+                            "uid": "string|资源唯一ID",
+                            "url": "string|资源在线地址"
+                        },
+                        "image": "null|废弃字段-前端去除"
+                    }
+                ],
+                "giftAfter": [
+                    {
+                        "audio": {
+                            "name": "string|资源名称",
+                            "path": "string|资源本地地址",
+                            "size": "number|资源大小",
+                            "status": "string|资源状态",
+                            "uid": "string|资源唯一ID",
+                            "url": "string|资源在线地址"
+                        },
+                        "eye": {
+                            "name": "string|资源名称",
+                            "path": "string|资源本地地址",
+                            "size": "number|资源大小",
+                            "status": "string|资源状态",
+                            "uid": "string|资源唯一ID",
+                            "url": "string|资源在线地址"
+                        },
+                        "image": "null|废弃字段-前端去除"
+                    }
+                ],
+                "giftBefore": [
+                    {
+                        "audio": {
+                            "name": "string|资源名称",
+                            "path": "string|资源本地地址",
+                            "size": "number|资源大小",
+                            "status": "string|资源状态",
+                            "uid": "string|资源唯一ID",
+                            "url": "string|资源在线地址"
+                        },
+                        "eye": {
+                            "name": "string|资源名称",
+                            "path": "string|资源本地地址",
+                            "size": "number|资源大小",
+                            "status": "string|资源状态",
+                            "uid": "string|资源唯一ID",
+                            "url": "string|资源在线地址"
+                        },
+                        "image": "null|废弃字段-前端去除"
+                    }
+                ],
+                "image": {
+                    "name": "string|资源名称",
+                    "path": "string|资源本地地址",
+                    "size": "number|资源大小",
+                    "status": "string|资源状态",
+                    "uid": "string|资源唯一ID",
+                    "url": "string|资源在线地址"
+                },
+                "introAudio": {
+                    "name": "string|资源名称",
+                    "path": "string|资源本地地址",
+                    "size": "number|资源大小",
+                    "status": "string|资源状态",
+                    "uid": "string|资源唯一ID",
+                    "url": "string|资源在线地址"
+                },
+                "introEye": {
+                    "name": "string|资源名称",
+                    "path": "string|资源本地地址",
+                    "size": "number|资源大小",
+                    "status": "string|资源状态",
+                    "uid": "string|资源唯一ID",
+                    "url": "string|资源在线地址"
+                },
+                "modules": [
+                    {
+                        "id": "string|模块ID",
+                        "tid": "string|主题ID",
+                        "wid": "string|世界ID",
+                        "type": "string|模块类型|conversation",
+                        "endingAudio": {
+                            "name": "string|资源名称",
+                            "path": "string|资源本地地址",
+                            "size": "number|资源大小",
+                            "status": "string|资源状态",
+                            "uid": "string|资源唯一ID",
+                            "url": "string|资源在线地址"
+                        },
+                        "endingEye": {
+                            "name": "string|资源名称",
+                            "path": "string|资源本地地址",
+                            "size": "number|资源大小",
+                            "status": "string|资源状态",
+                            "uid": "string|资源唯一ID",
+                            "url": "string|资源在线地址"
+                        },
+                        "endingText": "string|结束文本",
+                        "showEnding": "bool|是否显示ending|仅conversation模块具有",
+                        "rounds": [
+                            {
+                                "id": "string|对话ID",
+                                "mid": "string|模块ID",
+                                "answers": [
+                                    {
+                                        "audio": {
+                                            "name": "string|资源名称",
+                                            "path": "string|资源本地地址",
+                                            "size": "number|资源大小",
+                                            "status": "string|资源状态",
+                                            "uid": "string|资源唯一ID",
+                                            "url": "string|资源在线地址"
+                                        },
+                                        "eye": {
+                                            "name": "string|资源名称",
+                                            "path": "string|资源本地地址",
+                                            "size": "number|资源大小",
+                                            "status": "string|资源状态",
+                                            "uid": "string|资源唯一ID",
+                                            "url": "string|资源在线地址"
+                                        },
+                                        "text": "string",
+                                        "type": "string|类型"
+                                    },
+                                    {
+                                        "audio": {
+                                            "name": "string|资源名称",
+                                            "path": "string|资源本地地址",
+                                            "size": "number|资源大小",
+                                            "status": "string|资源状态",
+                                            "uid": "string|资源唯一ID",
+                                            "url": "string|资源在线地址"
+                                        },
+                                        "eye": {
+                                            "name": "string|资源名称",
+                                            "path": "string|资源本地地址",
+                                            "size": "number|资源大小",
+                                            "status": "string|资源状态",
+                                            "uid": "string|资源唯一ID",
+                                            "url": "string|资源在线地址"
+                                        },
+                                        "text": "string",
+                                        "type": "string|类型"
+                                    },
+                                    {
+                                        "audio": {
+                                            "name": "string|资源名称",
+                                            "path": "string|资源本地地址",
+                                            "size": "number|资源大小",
+                                            "status": "string|资源状态",
+                                            "uid": "string|资源唯一ID",
+                                            "url": "string|资源在线地址"
+                                        },
+                                        "eye": {
+                                            "name": "string|资源名称",
+                                            "path": "string|资源本地地址",
+                                            "size": "number|资源大小",
+                                            "status": "string|资源状态",
+                                            "uid": "string|资源唯一ID",
+                                            "url": "string|资源在线地址"
+                                        },
+                                        "text": "string",
+                                        "type": "string|类型"
+                                    }
+                                ],
+                                "question": {
+                                    "audio": {
+                                        "name": "string|资源名称",
+                                        "path": "string|资源本地地址",
+                                        "size": "number|资源大小",
+                                        "status": "string|资源状态",
+                                        "uid": "string|资源唯一ID",
+                                        "url": "string|资源在线地址"
+                                    },
+                                    "eye": {
+                                        "name": "string|资源名称",
+                                        "path": "string|资源本地地址",
+                                        "size": "number|资源大小",
+                                        "status": "string|资源状态",
+                                        "uid": "string|资源唯一ID",
+                                        "url": "string|资源在线地址"
+                                    },
+                                    "text": "string|文本"
+                                }
+                            },
+                            {
+                                "answers": [
+                                    {
+                                        "audio": {
+                                            "name": "string|资源名称",
+                                            "path": "string|资源本地地址",
+                                            "size": "number|资源大小",
+                                            "status": "string|资源状态",
+                                            "uid": "string|资源唯一ID",
+                                            "url": "string|资源在线地址"
+                                        },
+                                        "eye": {
+                                            "name": "string|资源名称",
+                                            "path": "string|资源本地地址",
+                                            "size": "number|资源大小",
+                                            "status": "string|资源状态",
+                                            "uid": "string|资源唯一ID",
+                                            "url": "string|资源在线地址"
+                                        },
+                                        "text": "string|文本",
+                                        "type": "string|类型"
+                                    },
+                                    {
+                                        "audio": {
+                                            "name": "string|资源名称",
+                                            "path": "string|资源本地地址",
+                                            "size": "number|资源大小",
+                                            "status": "string|资源状态",
+                                            "uid": "string|资源唯一ID",
+                                            "url": "string|资源在线地址"
+                                        },
+                                        "eye": {
+                                            "name": "string|资源名称",
+                                            "path": "string|资源本地地址",
+                                            "size": "number|资源大小",
+                                            "status": "string|资源状态",
+                                            "uid": "string|资源唯一ID",
+                                            "url": "string|资源在线地址"
+                                        },
+                                        "text": "string|文本",
+                                        "type": "string|类型"
+                                    },
+                                    {
+                                        "audio": {
+                                            "name": "string|资源名称",
+                                            "path": "string|资源本地地址",
+                                            "size": "number|资源大小",
+                                            "status": "string|资源状态",
+                                            "uid": "string|资源唯一ID",
+                                            "url": "string|资源在线地址"
+                                        },
+                                        "eye": {
+                                            "name": "string|资源名称",
+                                            "path": "string|资源本地地址",
+                                            "size": "number|资源大小",
+                                            "status": "string|资源状态",
+                                            "uid": "string|资源唯一ID",
+                                            "url": "string|资源在线地址"
+                                        },
+                                        "text": "string|文本",
+                                        "type": "string|类型"
+                                    }
+                                ],
+                                "id": "string|对话ID",
+                                "mid": "string|模块ID",
+                                "question": {
+                                    "audio": {
+                                        "name": "string|资源名称",
+                                        "path": "string|资源本地地址",
+                                        "size": "number|资源大小",
+                                        "status": "string|资源状态",
+                                        "uid": "string|资源唯一ID",
+                                        "url": "string|资源在线地址"
+                                    },
+                                    "eye": {
+                                        "name": "string|资源名称",
+                                        "path": "string|资源本地地址",
+                                        "size": "number|资源大小",
+                                        "status": "string|资源状态",
+                                        "uid": "string|资源唯一ID",
+                                        "url": "string|资源在线地址"
+                                    },
+                                    "text": "string|文本"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "id": "string|模块ID",
+                        "tid": "string|主题ID",
+                        "wid": "string|世界ID",
+                        "type": "string|模块类型|factoid",
+                        "animationImage": {
+                            "name": "string|资源名称",
+                            "path": "string|资源本地地址",
+                            "size": "number|资源大小",
+                            "status": "string|资源状态",
+                            "uid": "string|资源唯一ID",
+                            "url": "string|资源在线地址"
+                        },
+                        "backgroundImage": {
+                            "name": "string|资源名称",
+                            "path": "string|资源本地地址",
+                            "size": "number|资源大小",
+                            "status": "string|资源状态",
+                            "uid": "string|资源唯一ID",
+                            "url": "string|资源在线地址"
+                        },
+                        "contentAudio": {
+                            "name": "string|资源名称",
+                            "path": "string|资源本地地址",
+                            "size": "number|资源大小",
+                            "status": "string|资源状态",
+                            "uid": "string|资源唯一ID",
+                            "url": "string|资源在线地址"
+                        },
+                        "contentEye": {
+                            "name": "string|资源名称",
+                            "path": "string|资源本地地址",
+                            "size": "number|资源大小",
+                            "status": "string|资源状态",
+                            "uid": "string|资源唯一ID",
+                            "url": "string|资源在线地址"
+                        },
+                        "contentFeet": {
+                            "name": "string|资源名称",
+                            "path": "string|资源本地地址",
+                            "size": "number|资源大小",
+                            "status": "string|资源状态",
+                            "uid": "string|资源唯一ID",
+                            "url": "string|资源在线地址"
+                        },
+                        "intro": {
+                            "id": "number|素材ID",
+                            "title": "string|素材名称",
+                            "type": "string|素材类型|intro",
+                            "randomized": "bool|是否可随机选择|true",
+                            "audio": {
+                                "name": "string|资源名称",
+                                "path": "string|资源本地地址",
+                                "size": "number|资源大小",
+                                "status": "string|资源状态",
+                                "uid": "string|资源唯一ID",
+                                "url": "string|资源在线地址"
+                            },
+                            "eye": {
+                                "name": "string|资源名称",
+                                "path": "string|资源本地地址",
+                                "size": "number|资源大小",
+                                "status": "string|资源状态",
+                                "uid": "string|资源唯一ID",
+                                "url": "string|资源在线地址"
+                            },
+                            "feet": {
+                                "name": "string|资源名称",
+                                "path": "string|资源本地地址",
+                                "size": "number|资源大小",
+                                "status": "string|资源状态",
+                                "uid": "string|资源唯一ID",
+                                "url": "string|资源在线地址"
+                            }
+                        },
+                        "outro": {
+                            "id": "number|素材ID",
+                            "randomized": "bool|是否可随机选择|true",
+                            "title": "string|素材名称",
+                            "type": "string|素材类型|outro",
+                            "audio": {
+                                "name": "string|资源名称",
+                                "path": "string|资源本地地址",
+                                "size": "number|资源大小",
+                                "status": "string|资源状态",
+                                "uid": "string|资源唯一ID",
+                                "url": "string|资源在线地址"
+                            },
+                            "doorOpen": "bool|开门|true",
+                            "eye": {
+                                "name": "string|资源名称",
+                                "path": "string|资源本地地址",
+                                "size": "number|资源大小",
+                                "status": "string|资源状态",
+                                "uid": "string|资源唯一ID",
+                                "url": "string|资源在线地址"
+                            },
+                            "feet": {
+                                "name": "string|资源名称",
+                                "path": "string|资源本地地址",
+                                "size": "number|资源大小",
+                                "status": "string|资源状态",
+                                "uid": "string|资源唯一ID",
+                                "url": "string|资源在线地址"
+                            }
+                        }
+                    },
+                    {
+                        "id": "string|模块ID",
+                        "tid": "string|主题ID",
+                        "wid": "string|世界ID",
+                        "type": "string|模块类型|video",
+                        "introAudio": {
+                            "name": "string|资源名称",
+                            "path": "string|资源本地地址",
+                            "size": "number|资源大小",
+                            "status": "string|资源状态",
+                            "uid": "string|资源唯一ID",
+                            "url": "string|资源在线地址"
+                        },
+                        "introEye": {
+                            "name": "string|资源名称",
+                            "path": "string|资源本地地址",
+                            "size": "number|资源大小",
+                            "status": "string|资源状态",
+                            "uid": "string|资源唯一ID",
+                            "url": "string|资源在线地址"
+                        },
+                        "video": {
+                            "name": "string|资源名称",
+                            "path": "string|资源本地地址",
+                            "size": "number|资源大小",
+                            "status": "string|资源状态",
+                            "uid": "string|资源唯一ID",
+                            "url": "string|资源在线地址"
+                        },
+                        "videoEye": {
+                            "name": "string|资源名称",
+                            "path": "string|资源本地地址",
+                            "size": "number|资源大小",
+                            "status": "string|资源状态",
+                            "uid": "string|资源唯一ID",
+                            "url": "string|资源在线地址"
+                        }
+                    },
+                    {
+                        "id": "string|模块ID",
+                        "tid": "string|主题ID",
+                        "wid": "string|世界ID",
+                        "type": "string|模块类型|trivia",
+                        "guideAudio": {
+                            "name": "string|资源名称",
+                            "path": "string|资源本地地址",
+                            "size": "number|资源大小",
+                            "status": "string|资源状态",
+                            "uid": "string|资源唯一ID",
+                            "url": "string|资源在线地址"
+                        },
+                        "guideEye": {
+                            "name": "string|资源名称",
+                            "path": "string|资源本地地址",
+                            "size": "number|资源大小",
+                            "status": "string|资源状态",
+                            "uid": "string|资源唯一ID",
+                            "url": "string|资源在线地址"
+                        },
+                        "introAudio": {
+                            "name": "string|资源名称",
+                            "path": "string|资源本地地址",
+                            "size": "number|资源大小",
+                            "status": "string|资源状态",
+                            "uid": "string|资源唯一ID",
+                            "url": "string|资源在线地址"
+                        },
+                        "introEye": {
+                            "name": "string|资源名称",
+                            "path": "string|资源本地地址",
+                            "size": "number|资源大小",
+                            "status": "string|资源状态",
+                            "uid": "string|资源唯一ID",
+                            "url": "string|资源在线地址"
+                        }
+                    },
+                    {
+                        "id": "string|模块ID",
+                        "tid": "string|主题ID",
+                        "wid": "string|世界ID",
+                        "type": "string|模块类型|slideshow",
+                        "audios": [
+                            {
+                                "name": "string|资源名称",
+                                "path": "string|资源本地地址",
+                                "size": "number|资源大小",
+                                "status": "string|资源状态",
+                                "uid": "string|资源唯一ID",
+                                "url": "string|资源在线地址"
+                            }
+                        ],
+                        "eyes": [
+                            {
+                                "name": "string|资源名称",
+                                "path": "string|资源本地地址",
+                                "size": "number|资源大小",
+                                "status": "string|资源状态",
+                                "uid": "string|资源唯一ID",
+                                "url": "string|资源在线地址"
+                            }
+                        ],
+                        "images": [
+                            {
+                                "name": "string|资源名称",
+                                "path": "string|资源本地地址",
+                                "size": "number|资源大小",
+                                "status": "string|资源状态",
+                                "uid": "string|资源唯一ID",
+                                "url": "string|资源在线地址"
+                            }
+                        ],
+                        "introAudio": {
+                            "name": "string|资源名称",
+                            "path": "string|资源本地地址",
+                            "size": "number|资源大小",
+                            "status": "string|资源状态",
+                            "uid": "string|资源唯一ID",
+                            "url": "string|资源在线地址"
+                        },
+                        "introEye": {
+                            "name": "string|资源名称",
+                            "path": "string|资源本地地址",
+                            "size": "number|资源大小",
+                            "status": "string|资源状态",
+                            "uid": "string|资源唯一ID",
+                            "url": "string|资源在线地址"
+                        }
+                    },
+                    {
+                        "id": "string|模块ID",
+                        "tid": "string|主题ID",
+                        "wid": "string|世界ID",
+                        "type": "string|模块类型|diy",
+                        "audios": [
+                            {
+                                "name": "string|资源名称",
+                                "path": "string|资源本地地址",
+                                "size": "number|资源大小",
+                                "status": "string|资源状态",
+                                "uid": "string|资源唯一ID",
+                                "url": "string|资源在线地址"
+                            }
+                        ],
+                        "eyes": [
+                            {
+                                "name": "string|资源名称",
+                                "path": "string|资源本地地址",
+                                "size": "number|资源大小",
+                                "status": "string|资源状态",
+                                "uid": "string|资源唯一ID",
+                                "url": "string|资源在线地址"
+                            }
+                        ],
+                        "images": [
+                            {
+                                "name": "string|资源名称",
+                                "path": "string|资源本地地址",
+                                "size": "number|资源大小",
+                                "status": "string|资源状态",
+                                "uid": "string|资源唯一ID",
+                                "url": "string|资源在线地址"
+                            }
+                        ],
+                        "introAudio": {
+                            "name": "string|资源名称",
+                            "path": "string|资源本地地址",
+                            "size": "number|资源大小",
+                            "status": "string|资源状态",
+                            "uid": "string|资源唯一ID",
+                            "url": "string|资源在线地址"
+                        },
+                        "introEye": {
+                            "name": "string|资源名称",
+                            "path": "string|资源本地地址",
+                            "size": "number|资源大小",
+                            "status": "string|资源状态",
+                            "uid": "string|资源唯一ID",
+                            "url": "string|资源在线地址"
+                        }
+                    },
+                    {
+                        "id": "string|模块ID",
+                        "tid": "string|主题ID",
+                        "wid": "string|世界ID",
+                        "type": "string|模块类型|anecdote",
+                        "audios": [
+                            {
+                                "name": "string|资源名称",
+                                "path": "string|资源本地地址",
+                                "size": "number|资源大小",
+                                "status": "string|资源状态",
+                                "uid": "string|资源唯一ID",
+                                "url": "string|资源在线地址"
+                            }
+                        ],
+                        "eyes": [
+                            {
+                                "name": "string|资源名称",
+                                "path": "string|资源本地地址",
+                                "size": "number|资源大小",
+                                "status": "string|资源状态",
+                                "uid": "string|资源唯一ID",
+                                "url": "string|资源在线地址"
+                            }
+                        ],
+                        "images": [
+                            {
+                                "name": "string|资源名称",
+                                "path": "string|资源本地地址",
+                                "size": "number|资源大小",
+                                "status": "string|资源状态",
+                                "uid": "string|资源唯一ID",
+                                "url": "string|资源在线地址"
+                            }
+                        ],
+                        "mood":{
+                            "id": "number|素材ID",
+                            "randomized": "bool|是否随机可选",
+                            "title": "string|素材名称",
+                            "type": "string|素材类型|mood",
+                            "eyeIn": {
+                                "name": "string|资源名称",
+                                "path": "string|资源本地地址",
+                                "size": "number|资源大小",
+                                "status": "string|资源状态",
+                                "uid": "string|资源唯一ID",
+                                "url": "string|资源在线地址"
+                            },
+                            "eyeOut": {
+                                "name": "string|资源名称",
+                                "path": "string|资源本地地址",
+                                "size": "number|资源大小",
+                                "status": "string|资源状态",
+                                "uid": "string|资源唯一ID",
+                                "url": "string|资源在线地址"
+                            },
+                            "musicIn": {
+                                "name": "string|资源名称",
+                                "path": "string|资源本地地址",
+                                "size": "number|资源大小",
+                                "status": "string|资源状态",
+                                "uid": "string|资源唯一ID",
+                                "url": "string|资源在线地址"
+                            },
+                            "musicLoop": {
+                                "name": "string|资源名称",
+                                "path": "string|资源本地地址",
+                                "size": "number|资源大小",
+                                "status": "string|资源状态",
+                                "uid": "string|资源唯一ID",
+                                "url": "string|资源在线地址"
+                            },
+                            "musicOut": {
+                                "name": "string|资源名称",
+                                "path": "string|资源本地地址",
+                                "size": "number|资源大小",
+                                "status": "string|资源状态",
+                                "uid": "string|资源唯一ID",
+                                "url": "string|资源在线地址"
+                            }
+                        }
+
+                  
+                    },
+                    {
+                        "id": "string|模块ID",
+                        "tid": "string|主题ID",
+                        "wid": "string|世界ID",
+                        "type": "string|模块类型|joke",
+                        "backgroundImage": {
+                            "name": "string|资源名称",
+                            "path": "string|资源本地地址",
+                            "size": "number|资源大小",
+                            "status": "string|资源状态",
+                            "uid": "string|资源唯一ID",
+                            "url": "string|资源在线地址"
+                        },
+                        "contentAudio": {
+                            "name": "string|资源名称",
+                            "path": "string|资源本地地址",
+                            "size": "number|资源大小",
+                            "status": "string|资源状态",
+                            "uid": "string|资源唯一ID",
+                            "url": "string|资源在线地址"
+                        },
+                        "contentEye": {
+                            "name": "string|资源名称",
+                            "path": "string|资源本地地址",
+                            "size": "number|资源大小",
+                            "status": "string|资源状态",
+                            "uid": "string|资源唯一ID",
+                            "url": "string|资源在线地址"
+                        },
+                        "contentFeet": {
+                            "name": "string|资源名称",
+                            "path": "string|资源本地地址",
+                            "size": "number|资源大小",
+                            "status": "string|资源状态",
+                            "uid": "string|资源唯一ID",
+                            "url": "string|资源在线地址"
+                        },
+                        "doorOpen": "bool|开门|true",
+                        "endEye": {
+                            "name": "string|资源名称",
+                            "path": "string|资源本地地址",
+                            "size": "number|资源大小",
+                            "status": "string|资源状态",
+                            "uid": "string|资源唯一ID",
+                            "url": "string|资源在线地址"
+                        },
+                        "endFeet": {
+                            "name": "string|资源名称",
+                            "path": "string|资源本地地址",
+                            "size": "number|资源大小",
+                            "status": "string|资源状态",
+                            "uid": "string|资源唯一ID",
+                            "url": "string|资源在线地址"
+                        },
+                        "introAudio": {
+                            "name": "string|资源名称",
+                            "path": "string|资源本地地址",
+                            "size": "number|资源大小",
+                            "status": "string|资源状态",
+                            "uid": "string|资源唯一ID",
+                            "url": "string|资源在线地址"
+                        },
+                        "introEye": {
+                            "name": "string|资源名称",
+                            "path": "string|资源本地地址",
+                            "size": "number|资源大小",
+                            "status": "string|资源状态",
+                            "uid": "string|资源唯一ID",
+                            "url": "string|资源在线地址"
+                        },
+                        "introFeet": {
+                            "name": "string|资源名称",
+                            "path": "string|资源本地地址",
+                            "size": "number|资源大小",
+                            "status": "string|资源状态",
+                            "uid": "string|资源唯一ID",
+                            "url": "string|资源在线地址"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]
