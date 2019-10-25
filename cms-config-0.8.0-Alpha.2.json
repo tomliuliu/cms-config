@@ -24,7 +24,7 @@
                     "uid": "string|资源唯一ID",
                     "url": "string|资源在线地址"
                 },
-                "eye": {
+                "eye|非必须": {
                     "name": "string|资源名称",
                     "path": "string|资源本地地址",
                     "size": "number|资源大小",
@@ -53,7 +53,7 @@
                     "uid": "string|资源唯一ID",
                     "url": "string|资源在线地址"
                 },
-                "eye": {
+                "eye|非必须": {
                     "name": "string|资源名称",
                     "path": "string|资源本地地址",
                     "size": "number|资源大小",
@@ -81,7 +81,7 @@
                     "uid": "string|资源唯一ID",
                     "url": "string|资源在线地址"
                 },
-                "eye": {
+                "eye|非必须": {
                     "name": "string|资源名称",
                     "path": "string|资源本地地址",
                     "size": "number|资源大小",
@@ -102,7 +102,7 @@
                     "uid": "string|资源唯一ID",
                     "url": "string|资源在线地址"
                 },
-                "eye": {
+                "eye|非必须": {
                     "name": "string|资源名称",
                     "path": "string|资源本地地址",
                     "size": "number|资源大小",
@@ -161,7 +161,7 @@
                             "uid": "string|资源唯一ID",
                             "url": "string|资源在线地址"
                         },
-                        "eye": {
+                        "eye|非必须": {
                             "name": "string|资源名称",
                             "path": "string|资源本地地址",
                             "size": "number|资源大小",
@@ -181,7 +181,7 @@
                             "uid": "string|资源唯一ID",
                             "url": "string|资源在线地址"
                         },
-                        "eye": {
+                        "eye|非必须": {
                             "name": "string|资源名称",
                             "path": "string|资源本地地址",
                             "size": "number|资源大小",
@@ -209,7 +209,7 @@
                             "uid": "string|资源唯一ID",
                             "url": "string|资源在线地址"
                         },
-                        "eye": {
+                        "eye|非必须": {
                             "name": "string|资源名称",
                             "path": "string|资源本地地址",
                             "size": "number|资源大小",
@@ -229,7 +229,7 @@
                             "uid": "string|资源唯一ID",
                             "url": "string|资源在线地址"
                         },
-                        "eye": {
+                        "eye|非必须": {
                             "name": "string|资源名称",
                             "path": "string|资源本地地址",
                             "size": "number|资源大小",
@@ -249,7 +249,7 @@
                             "uid": "string|资源唯一ID",
                             "url": "string|资源在线地址"
                         },
-                        "eye": {
+                        "eye|非必须": {
                             "name": "string|资源名称",
                             "path": "string|资源本地地址",
                             "size": "number|资源大小",
@@ -321,7 +321,7 @@
                                             "uid": "string|资源唯一ID",
                                             "url": "string|资源在线地址"
                                         },
-                                        "eye": {
+                                        "eye|非必须": {
                                             "name": "string|资源名称",
                                             "path": "string|资源本地地址",
                                             "size": "number|资源大小",
@@ -341,7 +341,7 @@
                                             "uid": "string|资源唯一ID",
                                             "url": "string|资源在线地址"
                                         },
-                                        "eye": {
+                                        "eye|非必须": {
                                             "name": "string|资源名称",
                                             "path": "string|资源本地地址",
                                             "size": "number|资源大小",
@@ -361,7 +361,7 @@
                                             "uid": "string|资源唯一ID",
                                             "url": "string|资源在线地址"
                                         },
-                                        "eye": {
+                                        "eye|非必须": {
                                             "name": "string|资源名称",
                                             "path": "string|资源本地地址",
                                             "size": "number|资源大小",
@@ -382,7 +382,7 @@
                                         "uid": "string|资源唯一ID",
                                         "url": "string|资源在线地址"
                                     },
-                                    "eye": {
+                                    "eye|非必须": {
                                         "name": "string|资源名称",
                                         "path": "string|资源本地地址",
                                         "size": "number|资源大小",
@@ -404,7 +404,7 @@
                                             "uid": "string|资源唯一ID",
                                             "url": "string|资源在线地址"
                                         },
-                                        "eye": {
+                                        "eye|非必须": {
                                             "name": "string|资源名称",
                                             "path": "string|资源本地地址",
                                             "size": "number|资源大小",
@@ -424,7 +424,7 @@
                                             "uid": "string|资源唯一ID",
                                             "url": "string|资源在线地址"
                                         },
-                                        "eye": {
+                                        "eye|非必须": {
                                             "name": "string|资源名称",
                                             "path": "string|资源本地地址",
                                             "size": "number|资源大小",
@@ -444,7 +444,7 @@
                                             "uid": "string|资源唯一ID",
                                             "url": "string|资源在线地址"
                                         },
-                                        "eye": {
+                                        "eye|非必须": {
                                             "name": "string|资源名称",
                                             "path": "string|资源本地地址",
                                             "size": "number|资源大小",
@@ -467,7 +467,7 @@
                                         "uid": "string|资源唯一ID",
                                         "url": "string|资源在线地址"
                                     },
-                                    "eye": {
+                                    "eye|非必须": {
                                         "name": "string|资源名称",
                                         "path": "string|资源本地地址",
                                         "size": "number|资源大小",
@@ -538,7 +538,7 @@
                                 "uid": "string|资源唯一ID",
                                 "url": "string|资源在线地址"
                             },
-                            "eye": {
+                            "eye|非必须": {
                                 "name": "string|资源名称",
                                 "path": "string|资源本地地址",
                                 "size": "number|资源大小",
@@ -569,7 +569,7 @@
                                 "url": "string|资源在线地址"
                             },
                             "doorOpen": "bool|开门|true",
-                            "eye": {
+                            "eye|非必须": {
                                 "name": "string|资源名称",
                                 "path": "string|资源本地地址",
                                 "size": "number|资源大小",
@@ -683,7 +683,7 @@
                                             "uid": "string|资源唯一ID",
                                             "url": "string|资源在线地址"
                                         },
-                                        "eye": {
+                                        "eye|非必须": {
                                             "name": "string|资源名称",
                                             "path": "string|资源本地地址",
                                             "size": "number|资源大小",
@@ -704,7 +704,7 @@
                                             "uid": "string|资源唯一ID",
                                             "url": "string|资源在线地址"
                                         },
-                                        "eye": {
+                                        "eye|非必须": {
                                             "name": "string|资源名称",
                                             "path": "string|资源本地地址",
                                             "size": "number|资源大小",
@@ -733,7 +733,7 @@
                                             "uid": "string|资源唯一ID",
                                             "url": "string|资源在线地址"
                                         },
-                                        "eye": {
+                                        "eye|非必须": {
                                             "name": "string|资源名称",
                                             "path": "string|资源本地地址",
                                             "size": "number|资源大小",
@@ -752,7 +752,7 @@
                                             "uid": "string|资源唯一ID",
                                             "url": "string|资源在线地址"
                                         },
-                                        "eye": {
+                                        "eye|非必须": {
                                             "name": "string|资源名称",
                                             "path": "string|资源本地地址",
                                             "size": "number|资源大小",
@@ -771,7 +771,7 @@
                                             "uid": "string|资源唯一ID",
                                             "url": "string|资源在线地址"
                                         },
-                                        "eye": {
+                                        "eye|非必须": {
                                             "name": "string|资源名称",
                                             "path": "string|资源本地地址",
                                             "size": "number|资源大小",
@@ -810,7 +810,7 @@
                                     "uid": "string|资源唯一ID",
                                     "url": "string|资源在线地址"
                                 },
-                                "eye": {
+                                "eye|非必须": {
                                     "name": "string|资源名称",
                                     "path": "string|资源本地地址",
                                     "size": "number|资源大小",
@@ -860,7 +860,7 @@
                                     "uid": "string|资源唯一ID",
                                     "url": "string|资源在线地址"
                                 },
-                                "eye": {
+                                "eye|非必须": {
                                     "name": "string|资源名称",
                                     "path": "string|资源本地地址",
                                     "size": "number|资源大小",
@@ -910,7 +910,7 @@
                                     "uid": "string|资源唯一ID",
                                     "url": "string|资源在线地址"
                                 },
-                                "eye": {
+                                "eye|非必须": {
                                     "name": "string|资源名称",
                                     "path": "string|资源本地地址",
                                     "size": "number|资源大小",
